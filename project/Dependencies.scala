@@ -44,9 +44,9 @@ object Dependencies {
 
   val redis = "io.chrisdavenport" %% "rediculous" % "0.5.1"
 
-  val chessTestKit      = "org.lichess"         %% "scalachess-test-kit"       % V.chess      % Test
-  val testContainers    = "com.dimafeng"        %% "testcontainers-scala-core" % "0.43.0"     % Test
-  val weaver            = "com.disneystreaming" %% "weaver-cats"               % "0.8.4"      % Test
-  val weaverScalaCheck  = "com.disneystreaming" %% "weaver-scalacheck"         % "0.8.4"      % Test
-  val catsEffectTestKit = "org.typelevel"       %% "cats-effect-testkit"       % V.catsEffect % Test
+  val chessTestKit      = "org.lichess"   %% "scalachess-test-kit"       % V.chess      % Test
+  val testContainers    = "com.dimafeng"  %% "testcontainers-scala-core" % "0.43.0"     % Test
+  val weaver            = "org.typelevel" %% "weaver-cats"               % "0.9.0"      % Test
+  val weaverScalaCheck  = "org.typelevel" %% "weaver-scalacheck"         % "0.9.0"      % Test
+  val catsEffectTestKit = "org.typelevel" %% "cats-effect-testkit"       % V.catsEffect % Test
 }
